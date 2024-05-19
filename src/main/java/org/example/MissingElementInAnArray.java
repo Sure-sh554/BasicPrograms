@@ -22,5 +22,6 @@ public class MissingElementInAnArray
         int missingNumber=expectedSum-actualSum;
         System.out.println(missingNumber);
 
+
     }
 }
