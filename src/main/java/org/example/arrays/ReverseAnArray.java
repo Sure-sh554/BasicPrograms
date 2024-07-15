@@ -2,6 +2,7 @@ package org.example.arrays;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.stream.Collectors;
 
 public class ReverseAnArray {
     public static int[] reverseAnArray(int[] array) {
@@ -18,15 +19,15 @@ public class ReverseAnArray {
         }
         return array;
     }
-}
+
 
 //    public static int[] reverseAnArrayByJava8(int[] array) {
 //        int length = array.length;
 //        int[] reverse = Arrays.stream(array)
 //                .boxed()
-//                .sorted(Collections.reverseOrder())
-//                .mapToInt(Integer::intValue).toArray();
+//                .sorted()
 //        return reverse;
 //    }
+}
 
 
