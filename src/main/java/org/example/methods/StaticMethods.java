@@ -38,13 +38,13 @@ public class StaticMethods {
 
 
 // Points to remember
-//We can define static class variables and we can directly call into the
+//We can define static class variables, and we can directly call into the
 // static methods with variables name
 // We can call instance variable into the static method compile error"Non-static field cannot be referenced in static context"
 //we can create an object in static method to access the instance variables in static method
-// In static method we have to create an object and we will the non-static method
+// In static method we have to create an object, and we will the non-static method
 // with the object reference. Unlike within a static method we can call directly other static method
-// We cannot call any variable simply in any method, will get an compilation error as NOT A STATEMENT
+// We cannot call any variable simply in any method, will get,an compilation error as NOT A STATEMENT
 //ILLEGAL STATEMENT OF EXPRESSION
 
 

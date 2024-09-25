@@ -9,5 +9,6 @@ public class Arrays {
         for (int i=0;i<arrays.length;i++ ){
             System.out.print(arrays[i]+" ");
         }
+
     }
 }
