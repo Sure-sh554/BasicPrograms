@@ -7,5 +7,6 @@ public class Initialisation {
         System.out.println(arr.length);
         System.out.println(arr[0]);
         System.out.println(arr[0].length);
+        System.out.println(arr[1].length);
     }
 }
